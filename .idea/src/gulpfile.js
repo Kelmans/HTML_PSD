@@ -9,13 +9,13 @@ var browserSync = require('browser-sync').create();
 var reload      = browserSync.reload;
 
 
-gulp.task('less', function(){ // Создаем таск less
+/*gulp.task('less', function(){ // Создаем таск less
     return gulp.src('styles/less/*.less') // Берем источник
         .pipe(less()) // Преобразуем less в CSS посредством gulp-less
         .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true })) // Создаем префиксы
         .pipe(gulp.dest('styles/css')) // Выгружаем результата в папку app/css
 
-});
+});*/
 
 
 // Watch scss AND html files, doing different things with each.
@@ -30,11 +30,11 @@ gulp.task('serve', function() {
     });
 });
 
-gulp.task('watch', ['serve', 'less'], function() {
-    gulp.watch('styles/less/*.less', ['less']); // Наблюдение за sass файлами в папке sass
+gulp.task('watch', ['serve'], function() {
+   /*gulp.watch('styles/less/*.less', ['less']); // Наблюдение за sass файлами в папке sass*/
     gulp.watch('markup/*.html', browserSync.reload); // Наблюдение за HTML файлами в корне проекта
     gulp.watch('scripts/*.js', browserSync.reload);   // Наблюдение за JS файлами в папке js
-    gulp.watch('styles/css/*.css', browserSync.reload);   // Наблюдение за JS файлами в папке js
+    gulp.watch('styles/css/main.css', browserSync.reload);   // Наблюдение за JS файлами в папке js
 
 });
 
