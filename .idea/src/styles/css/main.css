@@ -193,8 +193,8 @@ padding-top: 20px;
   display: flex;
  justify-content: space-between;
   height: 393px;
-  background: coral;
-  width: 765px;
+
+
 }
 .vert_stolb{
   height: 393px;
@@ -204,27 +204,145 @@ padding-top: 20px;
 .element_stolb{
   margin-bottom: 8.4px;
 
+
   height: 92px;
 }
 .ris_one{
+
   background-repeat: no-repeat;
   background-image: url("../../img/ris1.png");
 }
 .ris_two{
+
+
   background-repeat: no-repeat;
   background-image: url("../../img/ris2.png");
 }
 .ris_three{
-  background-repeat: no-repeat;
+  margin: 24px 0 0 28px;
+  background-repeat: round;
   background-image: url("../../img/ris3.png");
 }
 .ris_four{
+  margin: 24px 0 0 28px;
   background-repeat: no-repeat;
   background-image: url("../../img/ris1.png");
 }
 .cervis_text{
  display: flex;
+  flex-flow: column;
   height: 393px;
   width: 650px;
-  background: blue;
+
+  padding-left: 100px;
+}
+.servis_text-one{
+  font-size: 30px;
+
+}
+.servis_text-two{
+  font-size: 16px;
+}
+hr{
+  margin: 15px 0 15px 0;
+  background-color: #ff5c36;
+  width: 57px;
+  height: 3px;
+}
+.zastavka{
+  float: right;
+  width: 375px;
+  height: 393px;
+  background-image: url("../../img/watch.png");
+  background-repeat: round;
+}
+.bottom_service{
+  border: 1px solid #ededed;
+  margin-top: 330px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.team_wrapper{
+  margin: auto;
+  height: 964px;
+  width: 1170px;
+}
+.cont_team{
+
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 1141px;
+
+  height: 447px;
+}
+.element_team{
+  border: 1px solid #ededed;;
+  width: 362px;
+  background: coral;
+  height: 445px;
+}
+.team_bottom{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 95px;
+  width: 262px;
+  background: white;
+  margin: 385px auto;
+}
+.text_team-one{
+  margin-top: 15px;
+  font-size: 30px;
+}
+.text_team-two{
+  font-size: 16px;
+}
+.white_block{
+  background: #fff3f0;
+}
+.clientSaid_wrapper{
+  margin: auto;
+  height: 823px;
+  width: 1170px;
+}
+.logo_wrapper{
+ height: 202px;
+  width: 1140px;
+  margin: auto;
+}
+.content_logo{
+align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  height: 100%;
+}
+.logo{
+
+  width: 139px;
+  height: 38px;
+
+}
+.logo_one{
+  opacity: 0.2;
+  background-repeat: round;
+  background-image: url("../../img/logo-one.png");
+}
+.logo_two{
+  opacity: 0.2;
+  background-repeat: round;
+  background-image: url("../../img/logo-two.png");
+}
+.logo_three{
+  opacity: 0.2;
+  background-repeat: round;
+  background-image: url("../../img/logo-three.png");
+}
+.fon_fon{
+
+  background: #f7f7f7;
+}
+.footer_wrapper{
+  height: 255px;
+  width: 1170px;
 }
