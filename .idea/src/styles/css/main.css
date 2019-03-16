@@ -32,14 +32,19 @@
   margin: auto;
   width: 1140px;
   font-size:50px;
+
+}
+.colortext  {
+  color: #fd8d77;
 }
 .text-two{
   padding-top: 10px;
   margin: auto;
   width: 700px;
   font-size:16px;
+  opacity: 0.3;
 }
-.header-reg{
+.header_registration{
   box-shadow: 0 0 60px rgba(0,0,0,0.2);
   background: #ffffff;
   width: 372px;
@@ -69,13 +74,13 @@ padding-top: 20px;
   width: 700px;
   font-size:16px;
 }
-.kolon{
+.container{
   margin: auto;
   display: flex;
  width: 1140px;
   justify-content: space-between;
 }
-.stolb{
+.container_element{
 
   background: #4eb2f7;
   display: flex;
@@ -167,7 +172,7 @@ padding-top: 20px;
   width: 1170px;
   height: 1611px;
 }
-.wrapper-content{
+.wrapper_content{
   margin: auto;
   width: 1141px;
 }
@@ -196,12 +201,12 @@ padding-top: 20px;
 
 
 }
-.vert_stolb{
+.services_container{
   height: 393px;
   width: 104px ;
 
 }
-.element_stolb{
+.services_container-element{
   margin-bottom: 8.4px;
 
 
@@ -249,7 +254,7 @@ hr{
   width: 57px;
   height: 3px;
 }
-.zastavka{
+.banner{
   float: right;
   width: 375px;
   height: 393px;
@@ -317,7 +322,7 @@ align-items: center;
   width: 1140px;
   height: 100%;
 }
-.logo{
+.content_logo-element{
 
   width: 139px;
   height: 38px;
@@ -345,4 +350,90 @@ align-items: center;
 .footer_wrapper{
   height: 255px;
   width: 1170px;
+}
+.wrapper_carusel{
+  height: 420px;
+  background: coral;
+  width: 1140px;
+}
+
+
+.content__carousel {
+  position: relative;
+  width: 1112px;
+  padding: 10px 40px;
+  border: 1px solid #CCC;
+  border-radius: 15px;
+  background: #eee;
+  margin: auto;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.content__carousel img {
+  width: 350px;
+  height: 100%;
+
+
+
+  display: block;
+}
+
+.content__carousel-arrow {
+  position: absolute;
+
+  padding: 0;
+  background: #ddd;
+  border-radius: 15px;
+  border: 1px solid gray;
+  font-size: 24px;
+  line-height: 24px;
+  color: #444;
+  display: block;
+}
+
+.content__carousel-arrow:focus {
+  outline: none;
+}
+
+.content__carousel-arrow:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+
+.prevs {
+  left: 13px;
+}
+
+.nexts {
+  right: 7px;
+}
+
+
+
+.gallery-two {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.gallery-two ul {
+  height: 300px;
+  width: 9999px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.gallery-two li {
+  display: inline-block;
+}
+.images_element{
+  width: 538px;
+  height: 330px;
+  background: bisque;
+  margin-left: 15px;
+  background: cornflowerblue;
 }
